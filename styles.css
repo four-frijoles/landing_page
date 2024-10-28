@@ -10,6 +10,99 @@
     --header-font: "Bebas Neue", sans-serif;
 }
 
+.benefits {
+    max-width: var(--max-width);
+    margin: 2rem auto;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.benefits h2 {
+    font-family: var(--header-font);
+    color: var(--text-dark);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.benefit-cards {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.benefit-card {
+    max-width: 300px;
+    padding: 1.5rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    background-color: var(--white);
+    text-align: center;
+}
+
+.benefit-card h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.how-it-works, .testimonials {
+    max-width: var(--max-width);
+    margin: 2rem auto;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.how-it-works h2, .testimonials h2 {
+    font-family: var(--header-font);
+    color: var(--text-dark);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.step {
+    max-width: 300px;
+}
+
+.step h3 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.testimonial {
+    max-width: 300px;
+    padding: 1.5rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    background-color: var(--white);
+}
+
+.testimonial p {
+    font-style: italic;
+    color: var(--text-light);
+}
+
+.testimonial h4 {
+    margin-top: 1rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
 footer {
     background: #333;
     color: #fff;
@@ -43,10 +136,10 @@ body {
 .header__container {
     max-width: var(--max-width);
     margin: auto;
-    padding-block: 8rem 2rem;
+    padding-block: 4rem 1rem;
     padding-inline: 1rem;
     display: grid;
-    gap: 2rem;
+    gap: 1rem;
     overflow-x: hidden;
 }
 

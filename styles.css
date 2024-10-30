@@ -47,14 +47,14 @@
     margin-bottom: 0.5rem;
 }
 
-.how-it-works, .testimonials {
+.how-it-works{
     max-width: var(--max-width);
     margin: 2rem auto;
     padding: 2rem 1rem;
     text-align: center;
 }
 
-.how-it-works h2, .testimonials h2 {
+.how-it-works h2 {
     font-family: var(--header-font);
     color: var(--text-dark);
     font-size: 2.5rem;

@@ -10,6 +10,33 @@
     --header-font: "Bebas Neue", sans-serif;
 }
 
+.download__apk {
+    color: var(--white); /* Use your white color variable */
+    background-color: #28a745; /* Green background */
+    border: none;
+    padding: 0.75rem 1.5rem; /* Adjust padding for larger buttons */
+    font-size: 1rem; /* Standard font size */
+    border-radius: 8px; /* Rounded corners */
+    display: flex; /* Align icon and text horizontally */
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Center icon and text */
+    gap: 0.5rem; /* Space between icon and text */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+    margin-left: 1rem;
+}
+
+.download__apk:hover {
+    background-color: #218838; /* Darker green for hover */
+}
+
+.download__apk i, 
+.download__apk svg {
+    font-size: 1.2rem; /* Icon size */
+    vertical-align: middle; /* Align icon with text */
+    fill: var(--white); /* Set SVG icon color */
+}
+
 .benefits {
     max-width: var(--max-width);
     margin: 2rem auto;

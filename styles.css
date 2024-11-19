@@ -3,31 +3,42 @@
 :root {
     --primary-color: #ff833e;
     --primary-color-dark: #db6f35;
-    --text-dark: #333333;
-    --text-light: #767268;
     --white: #ffffff;
     --max-width: 1200px;
     --header-font: "Bebas Neue", sans-serif;
 }
 
-.download__apk {
-    color: var(--white); /* Use your white color variable */
-    background-color: #28a745; /* Green background */
+.nav__btns .btn {
+    margin: 0.5rem 0;
+    background-color: var(--primary-color);
+}
+
+.nav__btns .btn:hover {
+    background-color: var(--primary-color-dark);
+    transform: scale(1.05);
+}
+
+.download__apk, .nav__btns .btn {
+    color: var(--white);
     border: none;
-    padding: 0.75rem 1.5rem; /* Adjust padding for larger buttons */
-    font-size: 1rem; /* Standard font size */
-    border-radius: 8px; /* Rounded corners */
-    display: flex; /* Align icon and text horizontally */
-    align-items: center; /* Vertically center content */
-    justify-content: center; /* Center icon and text */
-    gap: 0.5rem; /* Space between icon and text */
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Smooth hover transition */
+    transition: background-color 0.3s ease;
     margin-left: 1rem;
 }
 
+.download__apk{
+    background-color: #28a745;
+}
 .download__apk:hover {
-    background-color: #218838; /* Darker green for hover */
+    background-color: #218838;
+    transform: scale(1.05);
 }
 
 .download__apk i, 
@@ -191,6 +202,13 @@ body {
     font-size: 0.9rem;
     color: var(--text-light);
     text-align: center;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 @media (width > 768px) {
